@@ -1,7 +1,9 @@
 #IDE used are spyder and Jupyter notebook
 #Credit:Quora
 # Credit: Stack Overflow
+#credits: https://pandas.pydata.org/docs/
 
+#library imports
 import time
 import pandas as pd
 import numpy as np
@@ -182,7 +184,8 @@ def user_stats(df):
 
 
 
-#Credit: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html#pandas-dataframe-iloc
+#Credit: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html
+#pandas-dataframe-iloc
 def display_raw_data(df):
     """Displays raw data on user request.
     Args:
@@ -199,7 +202,7 @@ def display_raw_data(df):
     
 
 
-
+#function to call the above functions to run the program
 def main():
     while True:
         city, month, day = get_filters()
